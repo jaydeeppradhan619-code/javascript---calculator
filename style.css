@@ -1,0 +1,81 @@
+body{
+    margin:0;
+    display: flex;
+    justify-content:center;
+    align-items: center;    
+    height: 100vh ;
+    background-color: rgb(190, 190, 170)
+}
+#calculator{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(39, 33, 31);
+    border-radius: 80px;
+    max-width: 455px ;
+    overflow: hidden;
+}
+
+#display{
+    width: 100% ;
+    padding: 40px ;
+    font-size: 2rem;
+    text-align:right;
+    border: none;
+    background-color:rgb(10, 10, 10) ;
+    color: rgb(224, 224, 224);
+    box-sizing: border-box;
+}
+
+
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 9px;
+    padding: 25px;
+}
+
+button{
+    width: 95PX;
+    height: 80px;
+    justify-content: left;
+    border-radius: 15px; 
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 2rem;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color:  rgb(131, 123, 115);
+}
+
+button:active{
+    background-color: rgb(82, 89, 97);
+}
+
+.operator-btn{
+    background-color: rgb(10, 10, 10);
+    color: rgb(7, 241, 19);
+}
+
+.operator-btn2{
+    background-color: rgb(20, 20, 20);
+    color: rgb(179, 240, 11);
+}
+.operator-btn2:hover{
+    background-color: rgb(131, 123, 115);
+}
+
+.operator-btn3{
+    background-color: rgb(20, 20, 20);
+     color: rgb(7, 241, 19);
+}
+
+.operator-btn3:hover{
+    background-color: ;
+
+}
+
+.operator-btn3:active{
+      background-color: rgb(82, 89, 97);
+}
